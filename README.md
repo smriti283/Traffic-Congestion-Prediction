@@ -1,4 +1,3 @@
-# Traffic-Congestion-Prediction
 # Traffic Congestion Analysis and Prediction in NYC 
 
 Over the years New York City has been experiencing more and more road traffic congestion, impacting the lives of New Yorkers severely not only with respect to ease of mobility but also in terms of increased air pollution as well as social/ psychological well being. While traffic flow has complex spatial and temporal dependencies, traffic volume remains a key measurable indicator of congestion. Monitoring and predicting the traffic volume within a given road segment or network over a given timeframe can thus help better manage the urban congestion problem, and also prove useful for other urban applications such as city planning, rezoning, urban development, maintenance of roads and environmental concerns, to name a few. 
