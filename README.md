@@ -39,23 +39,15 @@ We started with merging the traffic volume dataset with the LION shapefile (on S
 We found that for Weekdays, the cluster with highest traffic volume (label 1) have two peak time periods: 7AM - 8AM and 3PM - 7PM and for Weekends, the most amount of vehicle volume is observed between 2PM - 5PM.
 
 
-
-#### Weekday:
-
-
-<img width="598" alt="Screen Shot 2023-02-14 at 12 38 19 PM" src="https://user-images.githubusercontent.com/78453405/218857519-7ebe6ee3-6837-426b-bc0c-613182a7c194.png">
-
-
-#### Weekend:
-
-
-<img width="594" alt="Screen Shot 2023-02-14 at 12 38 39 PM" src="https://user-images.githubusercontent.com/78453405/218858710-4a9cb313-a759-4731-a52f-165bdb85b7b6.png">
+<img width="835" alt="Screen Shot 2023-02-14 at 12 56 29 PM" src="https://user-images.githubusercontent.com/78453405/218861528-6f38a460-9522-464d-bd84-4f9fe56945ac.png">
 
 
 Further, the clustered road segments were geoplotted for better data representation. Figure 2.3 and Figure 2.4 show spatial distribution of weekdays and weekends clusters: red color indicates high traffic volume segments, blue color indicates medium traffic, and yellow means low traffic. Figure 2.5 shows distribution of roads with highest vehicle volume (i.e. roads clustered under label 1) on both weekdays and weekends. Most of the segments overlap, and these areas need the most attention from traffic authorities to prevent congestion and traffic accidents.
 
 
+<img width="828" alt="Screen Shot 2023-02-14 at 12 55 53 PM" src="https://user-images.githubusercontent.com/78453405/218861601-43818676-9fed-41a5-aec4-1a7eac963f37.png">
 
+<img width="485" alt="Screen Shot 2023-02-14 at 12 57 02 PM" src="https://user-images.githubusercontent.com/78453405/218861657-e7568d3d-67d1-408a-8713-553a6801bcf8.png">
 
 
 
