@@ -68,12 +68,9 @@ We visualized a simple decision tree with max_depth = 2 learned from the dataset
 
 The following results were obtained from the Gaussian HMM for predictions on vehicle volume by the hours considered, and daily vehicle volumes: 
 
-#### a. Predicted vehicle volume between 7am and 8am on a given day:
 
+<img width="561" alt="Screen Shot 2023-02-14 at 12 51 35 PM" src="https://user-images.githubusercontent.com/78453405/218860807-3008741f-7316-438e-84ca-66ee1aaa134c.png">
 
-
-
-#### b. Predicted vehicle volume between 3pm and 4pm on a given day:
 
 
 
