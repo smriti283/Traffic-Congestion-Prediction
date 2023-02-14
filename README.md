@@ -38,6 +38,8 @@ We started with merging the traffic volume dataset with the LION shapefile (on S
 
 We found that for Weekdays, the cluster with highest traffic volume (label 1) have two peak time periods: 7AM - 8AM and 3PM - 7PM and for Weekends, the most amount of vehicle volume is observed between 2PM - 5PM.
 
+
+
 #### Weekday:
 
 
