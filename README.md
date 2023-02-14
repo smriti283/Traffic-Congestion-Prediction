@@ -53,7 +53,12 @@ Further, the clustered road segments were geoplotted for better data representat
 
 ### 3. Classification of NYC road segments using Decision Tree & Random Forests in absence of volume counts
 
-We visualized a simple decision tree with max_depth = 2 learned from the dataset (Figure 2.6 & Figure 2.7). Using this, if there is a road with variables such as street width, length, truck_ route etc., we can predict which cluster it will belong to even if the vehicular volume data is not available. In both weekend and weekday results, out of sample accuracies of decision tree are slightly better than those of random forest (Table 2.1). In this case, the result from the decision tree model has a higher accuracy than random forests. In terms of both accuracy and interpretability, decision trees are better than random forests at this time. Using a decision tree, we can see the attributes values and how to divide each group into small groups based on specific features.
+We visualized a simple decision tree with max_depth = 2 learned from the dataset (Figure 2.6 & Figure 2.7). Using this, if there is a road with variables such as street width, length, truck_ route etc., we can predict which cluster it will belong to even if the vehicular volume data is not available. 
+
+<img width="759" alt="Screen Shot 2023-02-14 at 12 55 24 PM" src="https://user-images.githubusercontent.com/78453405/218861896-1d5a6ee1-a5dd-476c-bf97-a428cd352453.png">
+
+
+In both weekend and weekday results, out of sample accuracies of decision tree are slightly better than those of random forest (Table 2.1). In this case, the result from the decision tree model has a higher accuracy than random forests'. In terms of both accuracy and interpretability, decision trees are better than random forests for this instance. 
 
 
 
