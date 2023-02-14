@@ -61,7 +61,7 @@ We visualized a simple decision tree with max_depth = 2 learned from the dataset
 In both weekend and weekday results, out of sample accuracies of decision tree are slightly better than those of random forest (Table 2.1). In this case, the result from the decision tree model has a higher accuracy than random forests'. In terms of both accuracy and interpretability, decision trees are better than random forests for this instance. 
 
 
-
+<img width="761" alt="Screen Shot 2023-02-14 at 1 00 31 PM" src="https://user-images.githubusercontent.com/78453405/218862433-169a9dfb-5252-4c60-bacf-5476f62ec689.png">
 
 
 
