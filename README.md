@@ -64,6 +64,8 @@ We visualized a simple decision tree with max_depth = 2 learned from the dataset
 
 
 
+
+
 ### 4. Gaussian Hidden Markov Model predictions of vehicular volume
 
 The following results were obtained from the Gaussian HMM for predictions on vehicle volume by the hours considered, and daily vehicle volumes: 
@@ -72,16 +74,7 @@ The following results were obtained from the Gaussian HMM for predictions on veh
 <img width="561" alt="Screen Shot 2023-02-14 at 12 51 35 PM" src="https://user-images.githubusercontent.com/78453405/218860807-3008741f-7316-438e-84ca-66ee1aaa134c.png">
 
 
-
-
-
-#### c. Predicted vehicle volume between 6pm and 7pm on a given day:
-
-
-
-
-#### d. Predicted vehicle volume on a given day:
-
+<img width="570" alt="Screen Shot 2023-02-14 at 12 53 34 PM" src="https://user-images.githubusercontent.com/78453405/218860924-ea4aac5c-f2ce-44c8-8ee7-1db5dbc7c0ee.png">
 
 
 
