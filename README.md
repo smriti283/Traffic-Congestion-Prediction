@@ -14,10 +14,10 @@ Lastly, based on the above results, the zones or segments that need the most att
 
 ## Datasets
 
-- [NYC Traffic Volume Counts (2014 - 2019)]https://data.cityofnewyork.us/Transportation/Traffic-Volume-Counts-2014-2019-/ertz-hr4r - NYC Open Data
-- [NYC Traffic Volume Counts (2012 - 2013)]https://www.kaggle.com/new-york-city/ny-traffic-volume-counts-2012-2013 - Kaggle 
-- [LION Shapefile]https://www1.nyc.gov/site/planning/data-maps/open-data/dwn-lion.page - NYC Department of City Planning
-- [NYC Zip Codes shapefile ]https://raw.githubusercontent.com/CUSP2020PUI/Data/master/NY.geojson
+- [NYC Traffic Volume Counts (2014 - 2019)](https://data.cityofnewyork.us/Transportation/Traffic-Volume-Counts-2014-2019-/ertz-hr4r) - NYC Open Data
+- [NYC Traffic Volume Counts (2012 - 2013)](https://www.kaggle.com/new-york-city/ny-traffic-volume-counts-2012-2013) - Kaggle 
+- [LION Shapefile](https://www1.nyc.gov/site/planning/data-maps/open-data/dwn-lion.page) - NYC Department of City Planning
+- [NYC Zip Codes shapefile ](https://raw.githubusercontent.com/CUSP2020PUI/Data/master/NY.geojson)
 
 
 ## Methods
