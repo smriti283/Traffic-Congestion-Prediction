@@ -47,6 +47,56 @@ We found that for Weekdays, the cluster with highest traffic volume (label 1) ha
 #### Weekend:
 
 
+<img width="594" alt="Screen Shot 2023-02-14 at 12 38 39 PM" src="https://user-images.githubusercontent.com/78453405/218858710-4a9cb313-a759-4731-a52f-165bdb85b7b6.png">
 
+
+Further, the clustered road segments were geoplotted for better data representation. Figure 2.3 and Figure 2.4 show spatial distribution of weekdays and weekends clusters: red color indicates high traffic volume segments, blue color indicates medium traffic, and yellow means low traffic. Figure 2.5 shows distribution of roads with highest vehicle volume (i.e. roads clustered under label 1) on both weekdays and weekends. Most of the segments overlap, and these areas need the most attention from traffic authorities to prevent congestion and traffic accidents.
+
+
+
+
+
+
+### 3. Classification of NYC road segments using Decision Tree & Random Forests in absence of volume counts
+
+We visualized a simple decision tree with max_depth = 2 learned from the dataset (Figure 2.6 & Figure 2.7). Using this, if there is a road with variables such as street width, length, truck_ route etc., we can predict which cluster it will belong to even if the vehicular volume data is not available. In both weekend and weekday results, out of sample accuracies of decision tree are slightly better than those of random forest (Table 2.1). In this case, the result from the decision tree model has a higher accuracy than random forests. In terms of both accuracy and interpretability, decision trees are better than random forests at this time. Using a decision tree, we can see the attributes values and how to divide each group into small groups based on specific features.
+
+
+
+
+### 4. Gaussian Hidden Markov Model predictions of vehicular volume
+
+The following results were obtained from the Gaussian HMM for predictions on vehicle volume by the hours considered, and daily vehicle volumes: 
+
+#### a. Predicted vehicle volume between 7am and 8am on a given day:
+
+
+
+
+#### b. Predicted vehicle volume between 3pm and 4pm on a given day:
+
+
+
+
+#### c. Predicted vehicle volume between 6pm and 7pm on a given day:
+
+
+
+
+#### d. Predicted vehicle volume on a given day:
+
+
+
+
+## Conclusion
+
+We used three methods to analyze and estimate traffic volume in NYC; K-Means clustering for clustering the unlabelled data; Decision Tree/ Random Forest for classifying low, medium and high traffic volume areas; and the Gaussian HMM predictor for traffic volume prediction on a given hour and day. With clustering analysis, we analyzed the hourly trends of weekends and weekdays traffic volumes. With Decision tree/ random forest models, we can classify even segments without hourly traffic volumes data into three categories and with the HMM predictor, we predicted the traffic volume for a given timeframe. As a limitation to the HMM model, more open data sets on the target road can lead to better accuracy in traffic volume prediction. 
+
+Nevertheless, the implementation of these approaches demonstrate that for broad level traffic volume analysis and prediction, it is possible to use simple and interpretable machine learning techniques successfully. This can help transportation departments and planners to manage urban traffic by providing solutions such as: 
+
+- Suggesting zones where intervention may be required for traffic management.
+- Predicting traffic volumes with road’s attributes for better urban planning/ rezoning. 
+- Planning for proper road width and simulating it based on this prediction.
+- Suggesting establishment of one-way rules or street parking restrictions based on hourly traffic prediction. 
 
 
